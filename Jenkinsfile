@@ -1,5 +1,4 @@
 pipeline {
-    echo 'HIIIIIIIYAAAAAAAAAA..'
     agent any
 
     stages {
