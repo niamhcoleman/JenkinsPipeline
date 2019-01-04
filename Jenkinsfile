@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                withMaven(maven: 'Maven_3_5_2') {
-                   sh 'mvn clean compile'
-                }
+                sh 'javac Student.java'
             }
         }
         stage('Test') {
