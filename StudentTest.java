@@ -50,7 +50,7 @@ public class studentTest {
     @org.junit.Test
     public void lowAverage() {
         Student std = new Student();
-        assertEquals(Student.AttendanceGrade.AVERAGE, std.getAttendanceGrade(30));
+        assertEquals(Student.AttendanceGrade.AVERAGE, std.getAttendanceGrade(35));
     }
 
     @org.junit.Test
