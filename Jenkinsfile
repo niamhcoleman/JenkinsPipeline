@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                sh 'javac Student.java'
+                echo 'Building..'
             }
         }
         stage('Test') {
